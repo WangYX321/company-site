@@ -1,5 +1,5 @@
 ---
-import HomepageTab from "@/layouts/function-components/HomepageTab";
+import { markdownify } from "@/lib/utils/textConverter";
 import VideoComponent from "@/layouts/function-components/VideoComponent";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { Image } from "astro:assets";
@@ -9,7 +9,9 @@ const { homepage_tab, our_service } = service;
 
 <section class="section services">
   <div class="container">
-    <HomepageTab client:load homepage_tab={homepage_tab} />
+    <div class="lg:col-5 mb-4">
+      <h2 set:html={markdownify('案例展示')} />
+    </div>
     {
       our_service.map((item: any, index: number) => (
         <div class="gx-5 row mt-12 items-center lg:mt-0">
@@ -19,16 +21,10 @@ const { homepage_tab, our_service } = service;
                 <Image
                   class="w-full object-contain"
                   alt="service"
-                  width={667}
-                  height={498}
+                  style={{width: '400px'}}
+                  // width={667}
+                  // height={498}
                   src={item.image}
-                />
-                <Image
-                  class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
-                  src="/images/shape-2.png"
-                  alt=""
-                  height={147}
-                  width={151}
                 />
               </div>
             )}
