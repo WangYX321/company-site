@@ -88,10 +88,10 @@ testimonial:
       avatar: "/images/users/CTO.png"
       organization: CTO
       rating: four
-      content: 8年+互联网研发经验，前上市公司架构师，深入了解电商、广告以及后台ERP系统。擅长系统架构设计与优化，精通微服务架构和云计算技术，具备良好的团队管理和项目协调能力。曾主导多个大型项目的实施，成功提升系统性能和用户体验，推动业务增长
+      content: 8年+互联网研发经验，前上市公司架构师，深入了解电商、广告以及后台ERP系统。擅长系统架构设计与优化，精通微服务架构和云计算技术。曾主导多个大型项目的实施，成功提升系统性能和用户体验，推动业务增长
     - author: Hebe
       avatar: "/images/users/Designer.png"
       organization: 设计
       rating: three
-      content: 南安普顿大学设计管理专业、6年+的UX/UI设计经验、Web/App/iPad经验
+      content: 南安普顿大学设计管理专业、6年+的UX/UI设计经验、Web/App/iPad应用设计经验。曾主导多个B端和C端项目的视觉UI设计，在满足交互实用性的基础上，兼顾视觉美学，为用户提供满意的UI风格设计方案。
 ---
