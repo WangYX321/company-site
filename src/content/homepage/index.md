@@ -76,7 +76,7 @@ service:
 
 #testimonial
 testimonial:
-  title: 我们的团队
+  title: 核心成员
   description: 我们的团队成员来自国内外一二线互联网大厂/创业公司，10年+互联网行业经验，拥有丰富的产品、设计、开发项目经验。
   testimonial_list:
     - author: Jacky
