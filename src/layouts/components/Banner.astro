@@ -2,7 +2,7 @@
 import { markdownify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
 const { banner } = Astro.props;
-const { title, button, image, content } = banner;
+const { title, image, content } = banner;
 ---
 
 <section class="section banner relative">
@@ -12,7 +12,15 @@ const { title, button, image, content } = banner;
         <h1 class="banner-title" set:html={markdownify(title)} />
 
         <p class="mt-6" set:html={markdownify(content)} />
-
+        <div class="btn btn-white mt-8 mr-5">
+          电商
+        </div>
+        <div class="btn btn-white mt-8 mr-5">
+          社交
+        </div>
+        <div class="btn btn-white mt-8">
+          教育
+        </div>
         <!-- {
           button.enable && (
             <a class="btn btn-white mt-8" href={button.link}>

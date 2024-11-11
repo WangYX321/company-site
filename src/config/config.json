@@ -4,11 +4,11 @@
     "base_url": "https://pinwheel-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "147",
-    "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "favicon": "/images/spacebit_logo.png",
+    "logo": "/images/spacebit_logo.png",
+    "logo_width": "35",
+    "logo_height": "35",
+    "logo_text": "空格位科技"
   },
 
   "settings": {
@@ -18,12 +18,8 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
-    }
+    "title": "协助客户专注于业务，为您提供技术的保障",
+    "description": "结合我们的产品研发运营推广等经验，为客户提供超出技术之外的服务"
   },
 
   "disqus": {
@@ -33,17 +29,16 @@
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "footer_description": "专业的定制软件开发服务提供商",
+    "email": "Email：spacebit@163.com",
+    "location": "Shanghai",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2023 Shanghai Space bit Co., Ltd"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Space bit",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "Shanghai Space bit Co., Ltd"
   }
 }

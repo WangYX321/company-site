@@ -10,14 +10,14 @@ const { homepage_tab, our_service } = service;
 <section class="section services">
   <div class="container">
     <div class="lg:col-5 mb-4">
-      <h2 set:html={markdownify('案例展示')} />
+      <h2 set:html={markdownify('部分案例展示')} />
     </div>
     {
       our_service.map((item: any, index: number) => (
-        <div class="gx-5 row mt-12 items-center lg:mt-0">
+        <div class="gx-5 row mt-12 items-center lg:mt-10">
           <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
             {item.image && (
-              <div class="relative">
+              <div class={`relative flex ${index % 2 === 0 ? "justify-start" : "justify-end"}`}>
                 <Image
                   class="w-full object-contain"
                   alt="service"
@@ -47,7 +47,7 @@ const { homepage_tab, our_service } = service;
             }`}
           >
             <div class="text-container">
-              <h2 class="lg:text-4xl">{item.title}</h2>
+              <h2 class="lg:text-3xl">{item.title}</h2>
               <p class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (
                 <a class="btn btn-white mt-6" href={item.button.link}>
